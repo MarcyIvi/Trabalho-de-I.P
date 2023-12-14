@@ -4,7 +4,7 @@ control = 0
 if control == 0:
     st.title('PyQuiz')
 
-base_url = f"http://localhost:{st.get_option('server.port')}"  # Link base com a porta dinâmica
+base_url = f"https://trabalho-de-ip-fjwgwjqeqnhtsxhyb6ntrx.streamlit.app"  # Link base com a porta dinâmica
 
 if st.button('Start!'):
     st.title('''Olá, seja bem-vindo(a) ao PyQuiz!
